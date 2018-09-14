@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.homeController">
+   <children>
+      <Button fx:id="displayProduct" layoutX="113.0" layoutY="304.0" mnemonicParsing="false" onAction="#displayProduct" text="Display Products" textFill="#ffc31d">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="addPhone" layoutX="128.0" layoutY="200.0" mnemonicParsing="false" onAction="#addPhone" text="Add Phone" textFill="#ffc31d">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="displayOrder" layoutX="423.0" layoutY="200.0" mnemonicParsing="false" onAction="#displayOrder" text="Display Order" textFill="#ffc31d">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="orderProduct" layoutX="265.0" layoutY="252.0" mnemonicParsing="false" onAction="#orderProduct" text="Order Products" textFill="#ffc31d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="findProduct" layoutX="425.0" layoutY="303.0" mnemonicParsing="false" onAction="#findProduct" text="Find Products" textFill="#ffc31d">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="228.0" layoutY="95.0" text="Final Project" textFill="#ffc31d">
+         <font>
+            <Font name="Bodoni MT Bold" size="32.0" />
+         </font></Label>
+   </children>
+</Pane>
